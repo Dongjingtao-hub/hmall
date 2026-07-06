@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53409526-c982-4c68-be21-9e1167e5281f" name="Changes" comment="Microservice decomposition work">
-      <change afterPath="$PROJECT_DIR$/hm-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/test/java/com/heima/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/target/classes/com/hmall/cart/CartApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/target/classes/com/hmall/cart/CartApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/target/classes/com/hmall/cart/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/target/classes/com/hmall/cart/controller/CartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-service/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/main/resource/application-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/main/resource/application-local.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/application-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/application-local.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/ItemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/ItemApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/controller/ItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/domain/po/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/domain/po/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/domain/query/ItemPageQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/domain/query/ItemPageQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/mapper/ItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/mapper/ItemMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/service/Impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/service/Impl/ItemServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cart-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2026-06-22.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/hm-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/hm-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/hm-service/spring.log.2026-06-22.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/item-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2026-06-22.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/controller/PayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/controller/PayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="53409526-c982-4c68-be21-9e1167e5281f" name="Changes" comment="gateway configuration" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +75,9 @@
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5,
@@ -293,7 +268,7 @@
       <workItem from="1782786929196" duration="9000" />
       <workItem from="1782791515053" duration="12295000" />
       <workItem from="1782809577191" duration="3098000" />
-      <workItem from="1783316934293" duration="9342000" />
+      <workItem from="1783316934293" duration="9658000" />
     </task>
     <task id="LOCAL-00001" summary="Microservice decomposition work">
       <option name="closed" value="true" />
@@ -303,7 +278,23 @@
       <option name="project" value="LOCAL" />
       <updated>1783317427237</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gateway configuration">
+      <option name="closed" value="true" />
+      <created>1783327828070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1783327828070</updated>
+    </task>
+    <task id="LOCAL-00003" summary="gateway configuration">
+      <option name="closed" value="true" />
+      <created>1783327870068</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1783327870068</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +302,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Microservice decomposition work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Microservice decomposition work" />
+    <MESSAGE value="gateway configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="gateway configuration" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
